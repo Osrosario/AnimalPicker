@@ -54,12 +54,12 @@ public class AnimalPicker
 
             if (animal.equalsIgnoreCase("Dog"))
             {
-                System.out.println("\nDOG ASCII ART HERE");
+                System.out.println("  __      _\no\'\')}____//\n `_/      )\n (_(_/-(_/");
                 break;
             }
             else if (animal.equalsIgnoreCase("Cat"))
             {
-                System.out.println("\nCAT ASCII ART HERE");
+                System.out.println("|\\__/,|   (`\\\n |_ _  |.--.) )\n ( T   )     /\n(((^_(((/(((_/");
                 break;
             }
             else 
