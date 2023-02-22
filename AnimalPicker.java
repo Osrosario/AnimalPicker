@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import javax.lang.model.util.ElementScanner14;
+
 public class AnimalPicker
 {
     private static Scanner userInput = new Scanner(System.in);
@@ -21,6 +23,10 @@ public class AnimalPicker
         else if (animal.equalsIgnoreCase("Cat"))
         {
             System.out.println("\nCAT ASCII ART HERE");
+        }
+        else 
+        {
+            System.out.println("That was not an animal.");
         }
     }
 }
