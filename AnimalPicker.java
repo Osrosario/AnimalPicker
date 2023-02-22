@@ -44,6 +44,7 @@ public class AnimalPicker
         System.out.println("\nChoose enter an animal you wish to see:");
         System.out.println("- Dog");
         System.out.println("- Cat");
+        System.out.println("- Fish");
         
         String animal = "";
 
@@ -59,7 +60,12 @@ public class AnimalPicker
             }
             else if (animal.equalsIgnoreCase("Cat"))
             {
-                System.out.println("|\\__/,|   (`\\\n |_ _  |.--.) )\n ( T   )     /\n(((^_(((/(((_/");
+                System.out.println("\n|\\__/,|   (`\\\n |_ _  |.--.) )\n ( T   )     /\n(((^_(((/(((_/");
+                break;
+            }
+            else if (animal.equalsIgnoreCase("Fish"))
+            {
+                System.out.println("\n    _/./\n ,-\'    `-:..-\'/\n: o )      _  (\n\"`-....,--; `-.\\\n    `\'");
                 break;
             }
             else 
