@@ -45,6 +45,7 @@ public class AnimalPicker
         System.out.println("- Dog");
         System.out.println("- Cat");
         System.out.println("- Fish");
+        System.out.println("- Frog");
         
         String animal = "";
 
@@ -66,6 +67,11 @@ public class AnimalPicker
             else if (animal.equalsIgnoreCase("Fish"))
             {
                 System.out.println("\n    _/./\n ,-\'    `-:..-\'/\n: o )      _  (\n\"`-....,--; `-.\\\n    `\'");
+                break;
+            }
+            else if (animal.equalsIgnoreCase("Frog"))
+            {
+                System.out.println("           .--._.--.\n          ( O     O )\n          /   . .   \\\n         .`._______.\'.\n        /(           )\\\n      _/  \\  \\   /  /  \\_\n   .~   `  \\  \\ /  /  \'   ~.\n  {    -.   \\  V  /   .-    }\n_ _`.    \\  |  |  |  /    .\'_ _\n>_       _} |  |  | {_       _<\n /. - ~ ,_-\'  .^.  `-_, ~ - .\\\n         \'-\'|/   \\|`-`");
                 break;
             }
             else 
